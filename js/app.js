@@ -44,8 +44,7 @@ for (let i = 0; i < Seattle.Time.length; i++) {
 
   liElement.textContent = Seattle.Time[i] + ':' + Math.floor(avgCookie[0] * Seattle.hourlyCustomers()) + ' Cookies';
 
-
-  //   console.log(Seattle.hourlyCustomers());
+  
 }
 
 avgCookie.push(1.2);
