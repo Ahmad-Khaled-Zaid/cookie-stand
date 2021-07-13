@@ -255,6 +255,7 @@ let lima = {
     let totalofCookies = document.createElement('li');
     unorderList.appendChild(totalofCookies);
     totalofCookies.textContent = 'The Total is:' + this.total;
+
   }
 
 
