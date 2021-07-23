@@ -7,6 +7,7 @@ function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 let shops = [];
+console.log(shops);
 
 function Shop(locationName, minCustomers, maxCustomers, avgCookie) {
 
@@ -67,7 +68,7 @@ function makeHeader() {
   table.appendChild(headerRow);
   let firstRow = document.createElement('th');
   headerRow.appendChild(firstRow);
-  firstRow.textContent = 'Name';
+  firstRow.textContent = 'Name/Time ';
   for (let i = 0; i < hours.length; i++) {
 
     let hoursheading = document.createElement('th');
@@ -142,25 +143,27 @@ function submitter(event) {
 
   let name = event.target.locationName.value;
   console.log(name);
-  let minimumCustomers = event.target.minCustomers.value;
+  let minimumCustomers = parseInt(event.target.minCustomers.value);
   // console.log(minimumCustomers);
 
-  let maximumCustomers = event.target.maxCustomers.value;
+  let maximumCustomers =parseInt(event.target.maxCustomers.value);
   // console.log(maximumCustomers);
 
-  let averageCookiesNumber = event.target.avgCookies.value;
+  let averageCookiesNumber =parseFloat( event.target.avgCookies.value);
   // console.log(averageCookiesNumber);
 
   let addshop = new Shop(name, minimumCustomers, maximumCustomers, averageCookiesNumber);
 
-  parent.textContent='';
-
+  table.textContent='';
+makeHeader();
 
   for (let i = 0; i < shops.length; i++) {
     shops[i].numberOfCusomersPerHour();
     shops[i].numberOfCookiesPerHour();
     shops[i].render();
+
   }
+  makeFotter();
 
 
 
@@ -171,7 +174,7 @@ for (let i = 0; i < shops.length; i++) {
   shops[i].numberOfCookiesPerHour();
   shops[i].render();
 }
-
+makeFotter();
 
 
 
