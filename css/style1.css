@@ -1,0 +1,274 @@
+header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(221, 203, 100, 0.5)),url(../pic/family.jpg);
+    min-height: 300vh;
+    background-position: center;
+    background-size: cover;
+    /* background-size: inherit; */
+    
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#salmon{
+    width: 10%;
+margin-left: 43%;    
+margin-top: 2%;
+}
+
+#logoWord{
+    margin-left: 45%;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 20px;
+    color: orange;
+    display: inline-block;
+
+}
+
+.firstSection{
+
+    border: 1px solid black;
+    width: 60%;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    border-style:double;
+    border-color:orange;
+    border-radius: 10px;
+    background-color:wheat ;
+}
+
+
+
+.firstSection img{
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+
+#para{
+    position: absolute;
+    left: 650px;
+    top: 230px;
+    font-size: 30px;
+    line-height: 60px;
+    font-family: 'Otomanopee One', sans-serif;
+font-family: 'Staatliches', cursive;
+}
+
+.firstSection:hover{
+    background-color: rgb(201, 231, 91);
+    transition: 0.;
+}
+.secondSection:hover{
+    background-color: rgb(201, 231, 91);
+    transition: 0.;
+}
+.thirdSection:hover{
+    background-color: rgb(201, 231, 91);
+    transition: 0.;
+}
+.fourthSection:hover{
+    background-color: rgb(201, 231, 91);
+    transition: 0.;
+}
+.fifthSection:hover{
+    background-color: rgb(201, 231, 91);
+    transition: 0.;
+}
+
+.secondSection{
+    border: 1px solid black;
+    width: 60%;
+    height: 300px;
+    position: absolute;
+    top: 600px;
+    left: 300px;
+    border-style:double;
+    border-color:orange;
+    border-radius: 10px;
+    background-color:wheat ;
+
+
+
+}
+
+#para2{
+    position: absolute;
+    left: 650px;
+    top: 620px;
+    font-size: 30px;
+    line-height: 60px;
+    font-family: 'Otomanopee One', sans-serif;
+    font-family: 'Staatliches', cursive;
+}
+
+.secondSection img{
+    padding-top: 20px;
+    padding-left: 20px;
+    width:300px;
+    height: 230px;
+
+}
+
+
+
+.thirdSection{
+
+    border: 1px solid black;
+    width: 60%;
+    height: 300px;
+    position: absolute;
+    top: 1000px;
+    left: 300px;
+    border-style:double;
+    border-color:orange;
+    border-radius: 10px;
+    background-color:wheat ;
+
+
+
+}
+
+#para3{
+    position: absolute;
+    left: 650px;
+    top: 1010px;
+    font-size: 30px;
+    line-height: 60px;
+    font-family: 'Otomanopee One', sans-serif;
+    font-family: 'Staatliches', cursive;
+}
+
+
+.thirdSection  img{
+
+    padding-top: 20px;
+    padding-left: 20px;
+    width:300px;
+    height: 230px;
+
+}
+
+
+.fourthSection{
+
+    border: 1px solid black;
+    width: 60%;
+    height: 300px;
+    position: absolute;
+    top: 1370px;
+    left: 300px;
+    border-style:double;
+    border-color:orange;
+    border-radius: 10px;
+    background-color:wheat ;
+
+
+}
+
+.fourthSection img{
+
+    padding-top: 20px;
+    padding-left: 20px;
+    width:300px;
+    height: 230px;
+
+}
+
+#para4{
+    position: absolute;
+    left: 650px;
+    top: 1380px;
+    font-size: 30px;
+    line-height: 60px;
+    font-family: 'Otomanopee One', sans-serif;
+    font-family: 'Staatliches', cursive;
+
+
+}
+
+.fifthSection{
+
+    border: 1px solid black;
+    width: 60%;
+    height: 300px;
+    position: absolute;
+    top: 1760px;
+    left: 300px;
+    border-style:double;
+    border-color:orange;
+    border-radius: 10px;
+    background-color:wheat ;
+
+
+
+}
+
+
+.fifthSection img{
+
+    padding-top: 20px;
+    padding-left: 20px;
+    width:300px;
+    height: 230px;
+
+}
+
+#para5{
+    position: absolute;
+    left: 650px;
+    top: 1780px;
+    font-size: 30px;
+    line-height: 60px;
+    font-family: 'Otomanopee One', sans-serif;
+    font-family: 'Staatliches', cursive;
+
+}
+
+
+#para p:first-child{
+    color: orange;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#para1 p:first-child{
+    font-family: 'Permanent Marker', cursive;
+    color: orange;
+}
+
+#para2 p:first-child{
+    font-family: 'Permanent Marker', cursive;
+    color: orange;
+}
+
+#para3 p:first-child{
+    font-family: 'Permanent Marker', cursive;
+    color: orange;
+}
+
+#para4 p:first-child{
+    font-family: 'Permanent Marker', cursive;
+    color: orange;
+}
+
+
+#para5 p:first-child{
+    font-family: 'Permanent Marker', cursive;
+    color: orange;
+}
+
+ .link1 {
+    text-decoration: none;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    font-size: 20px;
+    color: rgb(255, 153, 0);
+    font-weight: bold;
+}
